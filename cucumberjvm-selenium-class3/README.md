@@ -55,11 +55,11 @@ Using Maven:
 
 Specify a particular scenario by *line* (and use the pretty plugin, which prints the scenario back)
 
-    -Dcucumber.options="classpath:features/seleniumframework.feature:5 --plugin pretty"
+    -Dcucumber.options="classpath:features/SubmitForm.feature:5 --plugin pretty"
 
 You can also specify files to run by filesystem path:
 
-    -Dcucumber.options="src/test/resources/features/seleniumframework.feature:4 --plugin pretty"
+    -Dcucumber.options="src/test/resources/features/SubmitForm.feature:4 --plugin pretty"
 
 You can also specify what to run by *tag*:
 
@@ -67,4 +67,4 @@ You can also specify what to run by *tag*:
 
 ## Known Issues so far
 
-https://github.com/cucumber/cucumber-jvm/issues/263
+https://github.com/cucumber/cucumber-jvm/issues
