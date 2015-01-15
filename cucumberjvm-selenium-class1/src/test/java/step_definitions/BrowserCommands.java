@@ -40,7 +40,7 @@ public class BrowserCommands{
 
     @Then("^I print the html$")
     public void i_print_the_html() throws Throwable {
-       Reporter.log(driver.getTitle());
+       System.out.println("Browser title-"+driver.getTitle());
        
     }
     
