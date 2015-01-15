@@ -4,7 +4,8 @@ You can find a much lucid explanation on [seleniumframework.com] (http://www.sel
 
 # cucumber-jvm-selenium-class1 
 
-Explains browser commands that selenium java api provides.
+Explains browser commands that selenium java api provides.  
+http://www.seleniumframework.com/cucumber-jvm-3/browser-commands/  
 
 ## Get the code
 
