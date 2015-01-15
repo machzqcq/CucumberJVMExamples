@@ -1,0 +1,897 @@
+[
+  {
+    "id": "identify-all-elements-on-form-and-submit",
+    "description": "",
+    "name": "Identify all elements on form and submit",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1176369451,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "identify-all-elements-on-form-and-submit;complete-the-registration-form",
+        "before": [
+          {
+            "result": {
+              "duration": 2735051707,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Complete the registration form",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "duration": 1184202099,
+              "status": "passed"
+            },
+            "name": "I open practiceselenium website",
+            "keyword": "When ",
+            "line": 4,
+            "match": {
+              "location": "SubmitForm.i_open_practiceselenium_website()"
+            }
+          },
+          {
+            "result": {
+              "duration": 133422693,
+              "status": "passed"
+            },
+            "name": "navigate to practiceform link",
+            "keyword": "And ",
+            "line": 5,
+            "match": {
+              "location": "SubmitForm.navigate_to_practiceform_link()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1411186331,
+              "status": "passed"
+            },
+            "name": "I fill all fields on the form and submit",
+            "keyword": "And ",
+            "line": 6,
+            "match": {
+              "location": "SubmitForm.i_fill_all_fields_on_the_form_and_submit()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4784406,
+              "status": "passed"
+            },
+            "name": "I should see successfully submitted",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {
+              "location": "SubmitForm.i_should_see_successfully_submitted()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1177321077,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "identify-all-elements-on-form-and-submit;open-practiceselenium.com-website-and-fill-multiple-values;;2",
+        "before": [
+          {
+            "result": {
+              "duration": 2136173296,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Open practiceselenium.com website and fill multiple values",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "steps": [
+          {
+            "result": {
+              "duration": 954472603,
+              "status": "passed"
+            },
+            "name": "I open practiceselenium website",
+            "keyword": "When ",
+            "line": 10,
+            "match": {
+              "location": "SubmitForm.i_open_practiceselenium_website()"
+            }
+          },
+          {
+            "result": {
+              "duration": 717854284,
+              "status": "passed"
+            },
+            "name": "I fill \"Pradeep\" \"kumar\" \"Male\" \"2\" \"1/1/2000\"",
+            "keyword": "And ",
+            "line": 11,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pradeep",
+                  "offset": 8
+                },
+                {
+                  "val": "kumar",
+                  "offset": 18
+                },
+                {
+                  "val": "Male",
+                  "offset": 26
+                },
+                {
+                  "val": "2",
+                  "offset": 33
+                },
+                {
+                  "val": "1/1/2000",
+                  "offset": 37
+                }
+              ],
+              "location": "SubmitForm.i_fill(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "result": {
+              "duration": 258245444,
+              "status": "passed"
+            },
+            "name": "I fill \"Red Tea\" \"Break\" \"Europe\" and \"Navigation Commands\"",
+            "keyword": "And ",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Red Tea",
+                  "offset": 8
+                },
+                {
+                  "val": "Break",
+                  "offset": 18
+                },
+                {
+                  "val": "Europe",
+                  "offset": 26
+                },
+                {
+                  "val": "Navigation Commands",
+                  "offset": 39
+                }
+              ],
+              "location": "SubmitForm.i_fill_and(String,String,String,String)"
+            },
+            "matchedColumns": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "result": {
+              "duration": 435075108,
+              "status": "passed"
+            },
+            "name": "I hit submit button",
+            "keyword": "And ",
+            "line": 13,
+            "match": {
+              "location": "SubmitForm.i_hit_submit_button()"
+            }
+          },
+          {
+            "result": {
+              "duration": 10743360,
+              "status": "passed"
+            },
+            "name": "I go back to Welcome page and verify title",
+            "keyword": "Then ",
+            "line": 14,
+            "match": {
+              "location": "SubmitForm.i_go_back_to_Welcome_page_and_verify_title()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1181574248,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "identify-all-elements-on-form-and-submit;open-practiceselenium.com-website-and-fill-multiple-values;;3",
+        "before": [
+          {
+            "result": {
+              "duration": 2168886170,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Open practiceselenium.com website and fill multiple values",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "steps": [
+          {
+            "result": {
+              "duration": 897877520,
+              "status": "passed"
+            },
+            "name": "I open practiceselenium website",
+            "keyword": "When ",
+            "line": 10,
+            "match": {
+              "location": "SubmitForm.i_open_practiceselenium_website()"
+            }
+          },
+          {
+            "result": {
+              "duration": 666403649,
+              "status": "passed"
+            },
+            "name": "I fill \"Greg\" \"Mont\" \"Male\" \"1\" \"1/1/2001\"",
+            "keyword": "And ",
+            "line": 11,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Greg",
+                  "offset": 8
+                },
+                {
+                  "val": "Mont",
+                  "offset": 15
+                },
+                {
+                  "val": "Male",
+                  "offset": 22
+                },
+                {
+                  "val": "1",
+                  "offset": 29
+                },
+                {
+                  "val": "1/1/2001",
+                  "offset": 33
+                }
+              ],
+              "location": "SubmitForm.i_fill(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "result": {
+              "duration": 261049827,
+              "status": "passed"
+            },
+            "name": "I fill \"Black Tea\" \"Harmless Addiction\" \"Asia\" and \"Browser Commands\"",
+            "keyword": "And ",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Black Tea",
+                  "offset": 8
+                },
+                {
+                  "val": "Harmless Addiction",
+                  "offset": 20
+                },
+                {
+                  "val": "Asia",
+                  "offset": 41
+                },
+                {
+                  "val": "Browser Commands",
+                  "offset": 52
+                }
+              ],
+              "location": "SubmitForm.i_fill_and(String,String,String,String)"
+            },
+            "matchedColumns": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "result": {
+              "duration": 469857502,
+              "status": "passed"
+            },
+            "name": "I hit submit button",
+            "keyword": "And ",
+            "line": 13,
+            "match": {
+              "location": "SubmitForm.i_hit_submit_button()"
+            }
+          },
+          {
+            "result": {
+              "duration": 16061056,
+              "status": "passed"
+            },
+            "name": "I go back to Welcome page and verify title",
+            "keyword": "Then ",
+            "line": 14,
+            "match": {
+              "location": "SubmitForm.i_go_back_to_Welcome_page_and_verify_title()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1173875845,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "identify-all-elements-on-form-and-submit;open-practiceselenium.com-website-and-fill-multiple-values;;4",
+        "before": [
+          {
+            "result": {
+              "duration": 2133890296,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Open practiceselenium.com website and fill multiple values",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "steps": [
+          {
+            "result": {
+              "duration": 917291026,
+              "status": "passed"
+            },
+            "name": "I open practiceselenium website",
+            "keyword": "When ",
+            "line": 10,
+            "match": {
+              "location": "SubmitForm.i_open_practiceselenium_website()"
+            }
+          },
+          {
+            "result": {
+              "duration": 676198668,
+              "status": "passed"
+            },
+            "name": "I fill \"Rex\" \"Morg\" \"Male\" \"3\" \"3/1/2010\"",
+            "keyword": "And ",
+            "line": 11,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rex",
+                  "offset": 8
+                },
+                {
+                  "val": "Morg",
+                  "offset": 14
+                },
+                {
+                  "val": "Male",
+                  "offset": 21
+                },
+                {
+                  "val": "3",
+                  "offset": 28
+                },
+                {
+                  "val": "3/1/2010",
+                  "offset": 32
+                }
+              ],
+              "location": "SubmitForm.i_fill(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "result": {
+              "duration": 225236162,
+              "status": "passed"
+            },
+            "name": "I fill \"oolong tea\" \"Harmless Addiction\" \"USA\" and \"Wait Commands\"",
+            "keyword": "And ",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "val": "oolong tea",
+                  "offset": 8
+                },
+                {
+                  "val": "Harmless Addiction",
+                  "offset": 21
+                },
+                {
+                  "val": "USA",
+                  "offset": 42
+                },
+                {
+                  "val": "Wait Commands",
+                  "offset": 52
+                }
+              ],
+              "location": "SubmitForm.i_fill_and(String,String,String,String)"
+            },
+            "matchedColumns": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "result": {
+              "duration": 438572889,
+              "status": "passed"
+            },
+            "name": "I hit submit button",
+            "keyword": "And ",
+            "line": 13,
+            "match": {
+              "location": "SubmitForm.i_hit_submit_button()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5506542,
+              "status": "passed"
+            },
+            "name": "I go back to Welcome page and verify title",
+            "keyword": "Then ",
+            "line": 14,
+            "match": {
+              "location": "SubmitForm.i_go_back_to_Welcome_page_and_verify_title()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1174467020,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "identify-all-elements-on-form-and-submit;open-practiceselenium.com-website-and-fill-multiple-values;;5",
+        "before": [
+          {
+            "result": {
+              "duration": 2161849143,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Open practiceselenium.com website and fill multiple values",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "steps": [
+          {
+            "result": {
+              "duration": 867092120,
+              "status": "passed"
+            },
+            "name": "I open practiceselenium website",
+            "keyword": "When ",
+            "line": 10,
+            "match": {
+              "location": "SubmitForm.i_open_practiceselenium_website()"
+            }
+          },
+          {
+            "result": {
+              "duration": 679541266,
+              "status": "passed"
+            },
+            "name": "I fill \"Captain\" \"Cook\" \"Male\" \"5\" \"5/2/2010\"",
+            "keyword": "And ",
+            "line": 11,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Captain",
+                  "offset": 8
+                },
+                {
+                  "val": "Cook",
+                  "offset": 18
+                },
+                {
+                  "val": "Male",
+                  "offset": 25
+                },
+                {
+                  "val": "5",
+                  "offset": 32
+                },
+                {
+                  "val": "5/2/2010",
+                  "offset": 36
+                }
+              ],
+              "location": "SubmitForm.i_fill(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "result": {
+              "duration": 228361175,
+              "status": "passed"
+            },
+            "name": "I fill \"Red Tea\" \"Harmless Addiction\" \"USA\" and \"Switch Commands\"",
+            "keyword": "And ",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Red Tea",
+                  "offset": 8
+                },
+                {
+                  "val": "Harmless Addiction",
+                  "offset": 18
+                },
+                {
+                  "val": "USA",
+                  "offset": 39
+                },
+                {
+                  "val": "Switch Commands",
+                  "offset": 49
+                }
+              ],
+              "location": "SubmitForm.i_fill_and(String,String,String,String)"
+            },
+            "matchedColumns": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "result": {
+              "duration": 434701929,
+              "status": "passed"
+            },
+            "name": "I hit submit button",
+            "keyword": "And ",
+            "line": 13,
+            "match": {
+              "location": "SubmitForm.i_hit_submit_button()"
+            }
+          },
+          {
+            "result": {
+              "duration": 19263659,
+              "status": "passed"
+            },
+            "name": "I go back to Welcome page and verify title",
+            "keyword": "Then ",
+            "line": 14,
+            "match": {
+              "location": "SubmitForm.i_go_back_to_Welcome_page_and_verify_title()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1180047458,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "identify-all-elements-on-form-and-submit;open-practiceselenium.com-website-and-fill-multiple-values;;6",
+        "before": [
+          {
+            "result": {
+              "duration": 2137674222,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Open practiceselenium.com website and fill multiple values",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "steps": [
+          {
+            "result": {
+              "duration": 823794353,
+              "status": "passed"
+            },
+            "name": "I open practiceselenium website",
+            "keyword": "When ",
+            "line": 10,
+            "match": {
+              "location": "SubmitForm.i_open_practiceselenium_website()"
+            }
+          },
+          {
+            "result": {
+              "duration": 521280220,
+              "status": "passed"
+            },
+            "name": "I fill \"Michele\" \"Bing\" \"Female\" \"5\" \"5/2/2011\"",
+            "keyword": "And ",
+            "line": 11,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Michele",
+                  "offset": 8
+                },
+                {
+                  "val": "Bing",
+                  "offset": 18
+                },
+                {
+                  "val": "Female",
+                  "offset": 25
+                },
+                {
+                  "val": "5",
+                  "offset": 34
+                },
+                {
+                  "val": "5/2/2011",
+                  "offset": 38
+                }
+              ],
+              "location": "SubmitForm.i_fill(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "result": {
+              "duration": 225897128,
+              "status": "passed"
+            },
+            "name": "I fill \"Black Tea\" \"Harmless Addiction\" \"USA\" and \"Switch Commands\"",
+            "keyword": "And ",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Black Tea",
+                  "offset": 8
+                },
+                {
+                  "val": "Harmless Addiction",
+                  "offset": 20
+                },
+                {
+                  "val": "USA",
+                  "offset": 41
+                },
+                {
+                  "val": "Switch Commands",
+                  "offset": 51
+                }
+              ],
+              "location": "SubmitForm.i_fill_and(String,String,String,String)"
+            },
+            "matchedColumns": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "result": {
+              "duration": 439552432,
+              "status": "passed"
+            },
+            "name": "I hit submit button",
+            "keyword": "And ",
+            "line": 13,
+            "match": {
+              "location": "SubmitForm.i_hit_submit_button()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4844755,
+              "status": "passed"
+            },
+            "name": "I go back to Welcome page and verify title",
+            "keyword": "Then ",
+            "line": 14,
+            "match": {
+              "location": "SubmitForm.i_go_back_to_Welcome_page_and_verify_title()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1165273439,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "identify-all-elements-on-form-and-submit;open-practiceselenium.com-website-and-fill-fake-data",
+        "before": [
+          {
+            "result": {
+              "duration": 2149048990,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Open practiceselenium.com website and fill fake data",
+        "keyword": "Scenario",
+        "line": 24,
+        "steps": [
+          {
+            "result": {
+              "duration": 842397457,
+              "status": "passed"
+            },
+            "name": "I open practiceselenium website",
+            "keyword": "When ",
+            "line": 25,
+            "match": {
+              "location": "SubmitForm.i_open_practiceselenium_website()"
+            }
+          },
+          {
+            "result": {
+              "duration": 924581355,
+              "status": "passed"
+            },
+            "name": "I fill the form with fake values",
+            "keyword": "And ",
+            "line": 26,
+            "match": {
+              "location": "SubmitForm.i_fill_the_form_with_fake_values()"
+            }
+          },
+          {
+            "result": {
+              "duration": 435651502,
+              "status": "passed"
+            },
+            "name": "I hit submit button",
+            "keyword": "And ",
+            "line": 27,
+            "match": {
+              "location": "SubmitForm.i_hit_submit_button()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8057213,
+              "status": "passed"
+            },
+            "name": "I go back to Welcome page and verify title",
+            "keyword": "Then ",
+            "line": 28,
+            "match": {
+              "location": "SubmitForm.i_go_back_to_Welcome_page_and_verify_title()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "features/SubmitForm.feature"
+  }
+]
