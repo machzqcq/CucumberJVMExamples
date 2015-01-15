@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="25.454817">
+<testcase classname="seleniumframework.com features" name="Open seleniumframework website" time="16.431147">
+<system-out><![CDATA[Given I open seleniumframework website......................................passed
+And I navigate to ABOUT link................................................passed
+Then I print the html.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="seleniumframework.com features" name="Browser commands" time="9.02367">
+<skipped><![CDATA[Given I open seleniumframework website......................................passed
+Then I perform selenium browser commands....................................undefined
+]]></skipped>
+</testcase>
+</testsuite>
