@@ -2,16 +2,16 @@
 
 You can find a much lucid explanation on [seleniumframework.com] (http://www.seleniumframework.com/cucumber-jvm-2/what-is-cucumber-jvm/)
 
-# cucumber-jvm selenium example
+# cucumber-jvm-selenium-class1 
 
-A barebone example for running selenium tests on cucumber-jvm
+Explains browser commands that selenium java api provides.
 
 ## Get the code
 
 Git:
 
-    git clone https://github.com/machzqcq/cucumber-jvm-examples.git
-    cd cucumber-jvm-junit
+    git clone https://github.com/machzqcq/CucumberJVMExamples
+    cd cucumberjvm-selenium-class1
 
 ## Use Maven
 
@@ -31,7 +31,7 @@ results format that CI servers generally interpret
 
 Open a command window and run:
 
-    mvn clean test -Dcucumber.options="classpath:features/seleniumframework.feature:10"
+    mvn clean test -Dcucumber.options="classpath:features/BrowserCommands.feature:11"
 
 This should result in no scenarios running because there are no scenarios at line:10
 Moreover, if we want to override running entire features folder, we can do this
@@ -55,7 +55,7 @@ Using Maven:
 
 Specify a particular scenario by *line* (and use the pretty plugin, which prints the scenario back)
 
-    -Dcucumber.options="classpath:features/seleniumframework.feature:5 --plugin pretty"
+    -Dcucumber.options="classpath:features/BrowserCommands.feature:5 --plugin pretty"
 
 You can also specify files to run by filesystem path:
 
@@ -67,4 +67,4 @@ You can also specify what to run by *tag*:
 
 ## Known Issues so far
 
-https://github.com/cucumber/cucumber-jvm/issues/263
+https://github.com/cucumber/cucumber-jvm/issues
