@@ -10,7 +10,7 @@
         "after": [
           {
             "result": {
-              "duration": 1167428761,
+              "duration": 1614999342,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "before": [
           {
             "result": {
-              "duration": 2696925484,
+              "duration": 10221709888,
               "status": "passed"
             },
             "match": {
@@ -37,7 +37,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1320306015,
+              "duration": 5748747395,
               "status": "passed"
             },
             "name": "I open practiceselenium website",
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 594848574,
+              "duration": 366982653,
               "status": "passed"
             },
             "name": "navigate to practiceform link",
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 901988644,
+              "duration": 3545230956,
               "status": "passed"
             },
             "name": "I fill all fields on the form and submit",
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 190720617,
+              "duration": 437594196,
               "status": "passed"
             },
             "name": "I should see successfully submitted",
@@ -90,7 +90,7 @@
         "after": [
           {
             "result": {
-              "duration": 1175309853,
+              "duration": 1433423202,
               "status": "passed"
             },
             "match": {
@@ -102,7 +102,7 @@
         "before": [
           {
             "result": {
-              "duration": 2190682026,
+              "duration": 3630614791,
               "status": "passed"
             },
             "match": {
@@ -117,7 +117,7 @@
         "steps": [
           {
             "result": {
-              "duration": 965219247,
+              "duration": 3144632580,
               "status": "passed"
             },
             "name": "I open practiceselenium website",
@@ -129,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 679756387,
+              "duration": 1728032871,
               "status": "passed"
             },
             "name": "I fill \"Pradeep\" \"kumar\" \"Male\" \"2\" \"1/1/2000\"",
@@ -170,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 265634301,
+              "duration": 733500565,
               "status": "passed"
             },
             "name": "I fill \"Red Tea\" \"Break\" \"Europe\" and \"Navigation Commands\"",
@@ -206,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 426452174,
+              "duration": 881193150,
               "status": "passed"
             },
             "name": "I hit submit button",
@@ -218,7 +218,7 @@
           },
           {
             "result": {
-              "duration": 8413969,
+              "duration": 11741683,
               "status": "passed"
             },
             "name": "I go back to Welcome page and verify title",
@@ -235,7 +235,7 @@
         "after": [
           {
             "result": {
-              "duration": 1181543047,
+              "duration": 1336948600,
               "status": "passed"
             },
             "match": {
@@ -247,7 +247,7 @@
         "before": [
           {
             "result": {
-              "duration": 2159346096,
+              "duration": 3957286851,
               "status": "passed"
             },
             "match": {
@@ -262,7 +262,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1027020359,
+              "duration": 3460985174,
               "status": "passed"
             },
             "name": "I open practiceselenium website",
@@ -274,7 +274,7 @@
           },
           {
             "result": {
-              "duration": 661424648,
+              "duration": 1983106050,
               "status": "passed"
             },
             "name": "I fill \"Greg\" \"Mont\" \"Male\" \"1\" \"1/1/2001\"",
@@ -315,7 +315,7 @@
           },
           {
             "result": {
-              "duration": 268945698,
+              "duration": 743392154,
               "status": "passed"
             },
             "name": "I fill \"Black Tea\" \"Harmless Addiction\" \"Asia\" and \"Browser Commands\"",
@@ -351,7 +351,7 @@
           },
           {
             "result": {
-              "duration": 428673594,
+              "duration": 474640876,
               "status": "passed"
             },
             "name": "I hit submit button",
@@ -363,7 +363,7 @@
           },
           {
             "result": {
-              "duration": 7496829,
+              "duration": 518666588,
               "status": "passed"
             },
             "name": "I go back to Welcome page and verify title",
@@ -380,7 +380,7 @@
         "after": [
           {
             "result": {
-              "duration": 1178574859,
+              "duration": 1441900506,
               "status": "passed"
             },
             "match": {
@@ -392,7 +392,7 @@
         "before": [
           {
             "result": {
-              "duration": 2283884754,
+              "duration": 5707307149,
               "status": "passed"
             },
             "match": {
@@ -407,7 +407,7 @@
         "steps": [
           {
             "result": {
-              "duration": 984617153,
+              "duration": 5007177339,
               "status": "passed"
             },
             "name": "I open practiceselenium website",
@@ -419,7 +419,7 @@
           },
           {
             "result": {
-              "duration": 657987627,
+              "duration": 1845347981,
               "status": "passed"
             },
             "name": "I fill \"Rex\" \"Morg\" \"Male\" \"3\" \"3/1/2010\"",
@@ -460,7 +460,7 @@
           },
           {
             "result": {
-              "duration": 228308215,
+              "duration": 660280691,
               "status": "passed"
             },
             "name": "I fill \"oolong tea\" \"Harmless Addiction\" \"USA\" and \"Wait Commands\"",
@@ -496,7 +496,7 @@
           },
           {
             "result": {
-              "duration": 434224474,
+              "duration": 449886475,
               "status": "passed"
             },
             "name": "I hit submit button",
@@ -508,7 +508,7 @@
           },
           {
             "result": {
-              "duration": 6323922,
+              "duration": 488623670,
               "status": "passed"
             },
             "name": "I go back to Welcome page and verify title",
@@ -525,7 +525,7 @@
         "after": [
           {
             "result": {
-              "duration": 1174173075,
+              "duration": 1386196570,
               "status": "passed"
             },
             "match": {
@@ -537,7 +537,7 @@
         "before": [
           {
             "result": {
-              "duration": 2180928062,
+              "duration": 3964176762,
               "status": "passed"
             },
             "match": {
@@ -552,7 +552,7 @@
         "steps": [
           {
             "result": {
-              "duration": 836980413,
+              "duration": 6455223985,
               "status": "passed"
             },
             "name": "I open practiceselenium website",
@@ -564,7 +564,7 @@
           },
           {
             "result": {
-              "duration": 538109391,
+              "duration": 1697159860,
               "status": "passed"
             },
             "name": "I fill \"Captain\" \"Cook\" \"Male\" \"5\" \"5/2/2010\"",
@@ -605,7 +605,7 @@
           },
           {
             "result": {
-              "duration": 232095836,
+              "duration": 627085380,
               "status": "passed"
             },
             "name": "I fill \"Red Tea\" \"Harmless Addiction\" \"USA\" and \"Switch Commands\"",
@@ -641,7 +641,7 @@
           },
           {
             "result": {
-              "duration": 451891552,
+              "duration": 1162134519,
               "status": "passed"
             },
             "name": "I hit submit button",
@@ -653,7 +653,7 @@
           },
           {
             "result": {
-              "duration": 5598502,
+              "duration": 9727344,
               "status": "passed"
             },
             "name": "I go back to Welcome page and verify title",
@@ -670,7 +670,7 @@
         "after": [
           {
             "result": {
-              "duration": 1175189977,
+              "duration": 1460227405,
               "status": "passed"
             },
             "match": {
@@ -682,7 +682,7 @@
         "before": [
           {
             "result": {
-              "duration": 2162164437,
+              "duration": 3937736511,
               "status": "passed"
             },
             "match": {
@@ -697,7 +697,7 @@
         "steps": [
           {
             "result": {
-              "duration": 824893363,
+              "duration": 2812452698,
               "status": "passed"
             },
             "name": "I open practiceselenium website",
@@ -709,7 +709,7 @@
           },
           {
             "result": {
-              "duration": 662761769,
+              "duration": 1615202316,
               "status": "passed"
             },
             "name": "I fill \"Michele\" \"Bing\" \"Female\" \"5\" \"5/2/2011\"",
@@ -750,7 +750,7 @@
           },
           {
             "result": {
-              "duration": 227001063,
+              "duration": 604595886,
               "status": "passed"
             },
             "name": "I fill \"Black Tea\" \"Harmless Addiction\" \"USA\" and \"Switch Commands\"",
@@ -786,7 +786,7 @@
           },
           {
             "result": {
-              "duration": 425509170,
+              "duration": 839755703,
               "status": "passed"
             },
             "name": "I hit submit button",
@@ -798,7 +798,7 @@
           },
           {
             "result": {
-              "duration": 6430662,
+              "duration": 10514975,
               "status": "passed"
             },
             "name": "I go back to Welcome page and verify title",
@@ -815,7 +815,7 @@
         "after": [
           {
             "result": {
-              "duration": 1169795100,
+              "duration": 1329522559,
               "status": "passed"
             },
             "match": {
@@ -827,7 +827,7 @@
         "before": [
           {
             "result": {
-              "duration": 2177525936,
+              "duration": 4592708156,
               "status": "passed"
             },
             "match": {
@@ -842,7 +842,7 @@
         "steps": [
           {
             "result": {
-              "duration": 849067874,
+              "duration": 5547592451,
               "status": "passed"
             },
             "name": "I open practiceselenium website",
@@ -854,7 +854,7 @@
           },
           {
             "result": {
-              "duration": 970617407,
+              "duration": 2599439419,
               "status": "passed"
             },
             "name": "I fill the form with fake values",
@@ -866,7 +866,7 @@
           },
           {
             "result": {
-              "duration": 418241010,
+              "duration": 789227365,
               "status": "passed"
             },
             "name": "I hit submit button",
@@ -878,7 +878,7 @@
           },
           {
             "result": {
-              "duration": 7897513,
+              "duration": 57520435,
               "status": "passed"
             },
             "name": "I go back to Welcome page and verify title",

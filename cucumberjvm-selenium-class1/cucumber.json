@@ -1,13 +1,226 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="25.454817">
-<testcase classname="seleniumframework.com features" name="Open seleniumframework website" time="16.431147">
-<system-out><![CDATA[Given I open seleniumframework website......................................passed
-And I navigate to ABOUT link................................................passed
-Then I print the html.......................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="seleniumframework.com features" name="Browser commands" time="9.02367">
-<skipped><![CDATA[Given I open seleniumframework website......................................passed
-Then I perform selenium browser commands....................................undefined
-]]></skipped>
-</testcase>
-</testsuite>
+[
+  {
+    "id": "seleniumframework.com-features",
+    "description": "",
+    "name": "seleniumframework.com features",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1313147009,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "seleniumframework.com-features;open-seleniumframework-website",
+        "before": [
+          {
+            "result": {
+              "duration": 3805186237,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Open seleniumframework website",
+        "keyword": "Scenario",
+        "line": 2,
+        "steps": [
+          {
+            "result": {
+              "duration": 7351082574,
+              "status": "passed"
+            },
+            "name": "I open seleniumframework website",
+            "keyword": "Given ",
+            "line": 3,
+            "match": {
+              "location": "BrowserCommands.i_open_seleniumframework_website()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2237830206,
+              "status": "passed"
+            },
+            "name": "I navigate to ABOUT link",
+            "keyword": "And ",
+            "line": 4,
+            "match": {
+              "location": "BrowserCommands.i_navigate_to_ABOUT_link()"
+            }
+          },
+          {
+            "result": {
+              "duration": 45968195,
+              "status": "passed"
+            },
+            "name": "I print the html",
+            "keyword": "Then ",
+            "line": 5,
+            "match": {
+              "location": "BrowserCommands.i_print_the_html()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1652953105,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "seleniumframework.com-features;browser-commands",
+        "before": [
+          {
+            "result": {
+              "duration": 2525288666,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Browser commands",
+        "keyword": "Scenario",
+        "line": 6,
+        "steps": [
+          {
+            "result": {
+              "duration": 10384451929,
+              "status": "passed"
+            },
+            "name": "I open seleniumframework website",
+            "keyword": "Given ",
+            "line": 7,
+            "match": {
+              "location": "BrowserCommands.i_open_seleniumframework_website()"
+            }
+          },
+          {
+            "result": {
+              "duration": 11106889723,
+              "status": "passed"
+            },
+            "name": "I perform selenium browser commands",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "BrowserCommands.i_perform_selenium_browser_commands()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "features/BrowserCommands.feature"
+  },
+  {
+    "id": "addition",
+    "description": "As a math idiot\r\nIn order to not feel silly\r\nI add two numbers",
+    "name": "Addition",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1233180474,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "addition;adding-a-and-b",
+        "before": [
+          {
+            "result": {
+              "duration": 9100182723,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Adding a and b",
+        "keyword": "Scenario",
+        "line": 5,
+        "steps": [
+          {
+            "result": {
+              "duration": 108719,
+              "status": "passed"
+            },
+            "name": "I have variable a",
+            "keyword": "Given ",
+            "line": 6,
+            "match": {
+              "location": "Addition.i_have_variable_a()"
+            }
+          },
+          {
+            "result": {
+              "duration": 49460,
+              "status": "passed"
+            },
+            "name": "I have variable b",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "Addition.i_have_variable_b()"
+            }
+          },
+          {
+            "result": {
+              "duration": 57860,
+              "status": "passed"
+            },
+            "name": "I add a and b",
+            "keyword": "When ",
+            "line": 8,
+            "match": {
+              "location": "Addition.i_add_a_and_b()"
+            }
+          },
+          {
+            "result": {
+              "duration": 287430,
+              "status": "passed"
+            },
+            "name": "I display the sum",
+            "keyword": "Then ",
+            "line": 9,
+            "match": {
+              "location": "Addition.i_display_the_sum()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "features/addition.feature"
+  }
+]
