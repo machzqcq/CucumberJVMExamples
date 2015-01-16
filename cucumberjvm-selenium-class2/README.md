@@ -2,9 +2,10 @@
 
 You can find a much lucid explanation on [seleniumframework.com] (http://www.seleniumframework.com/cucumber-jvm-2/what-is-cucumber-jvm/)
 
-# cucumber-jvm selenium example
+# cucumber-jvm-selenium-class2   
 
-A barebone example for running selenium tests on cucumber-jvm
+Explains finding elements using selenium java api  .  
+http://www.seleniumframework.com/cucumber-jvm-3/find-element-strategies/
 
 ## Get the code
 

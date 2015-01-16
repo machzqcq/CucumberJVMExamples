@@ -2,7 +2,10 @@
 
 You can find a much lucid explanation on [seleniumframework.com] (http://www.seleniumframework.com/cucumber-jvm-2/what-is-cucumber-jvm/)
 
-# cucumber-jvm selenium example
+# cucumberjvm-selenium-class3  
+Explains how to interact with HTML elements using selenium java api  
+http://www.seleniumframework.com/cucumber-jvm-3/web-element-operations/  
+
 
 A barebone example for running selenium tests on cucumber-jvm
 
