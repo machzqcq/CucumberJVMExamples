@@ -9,6 +9,6 @@ All explanation is here - http://www.seleniumframework.com/cucumber-jvm-3/cucumb
 [Waits and Synchronization class4] (http://www.seleniumframework.com/cucumber-jvm-3/waits-and-synchronization/)  
 [Switch Commands class5] (http://www.seleniumframework.com/cucumber-jvm-3/switch-commands/)  
 [Tag Scenarios class6] (http://www.seleniumframework.com/cucumber-jvm-3/tag-scenarios)  
-[Boolean operations on Tags] (http://www.seleniumframework.com/cucumber-jvm-3/orng-and-andg-of-scenarios)  
+[Boolean operations on Tags class7] (http://www.seleniumframework.com/cucumber-jvm-3/orng-and-andg-of-scenarios)  
   
 
