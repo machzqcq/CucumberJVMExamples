@@ -1,0 +1,74 @@
+[
+  {
+    "id": "demonstrating-the-usage-of-web-elements",
+    "description": "",
+    "name": "Demonstrating the usage of web elements",
+    "keyword": "Feature",
+    "line": 2,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1153291923,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "demonstrating-the-usage-of-web-elements;identify-text-field-and-print-its-html",
+        "tags": [
+          {
+            "name": "@slow",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 2115912982,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Identify text field and print its html",
+        "keyword": "Scenario",
+        "line": 4,
+        "steps": [
+          {
+            "result": {
+              "duration": 2261337297,
+              "status": "passed"
+            },
+            "name": "I open practiceselenium.com website",
+            "keyword": "When ",
+            "line": 5,
+            "match": {
+              "location": "WebElements.i_open_practiceselenium_com_website()"
+            }
+          },
+          {
+            "result": {
+              "duration": 66927634,
+              "status": "passed"
+            },
+            "name": "I find first and last name and print the html",
+            "keyword": "Then ",
+            "line": 6,
+            "match": {
+              "location": "WebElements.i_find_first_and_last_name_and_print_the_html()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "features/WebElements.feature"
+  }
+]
