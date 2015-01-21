@@ -1,6 +1,7 @@
 .classpath
 .project
 *.iml
+.idea/
 /target/
 /.settings/
 /test-results/
