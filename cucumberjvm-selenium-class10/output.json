@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "firstName": "Pradeep",
+  "lastName": "Kumar",
+  "roles": [
+    "ADMIN",
+    "MANAGER"
+  ]
+}

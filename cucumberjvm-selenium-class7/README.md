@@ -2,9 +2,9 @@
 
 You can find a much lucid explanation on [seleniumframework.com] (http://www.seleniumframework.com/cucumber-jvm-2/what-is-cucumber-jvm/)
 
-# cucumber-jvm-selenium-class2   
+# cucumber-jvm-selenium-class7   
 
-Explains finding elements using selenium java api  .  
+Explains parameterizing browser and execute on multiple browsers.  
 http://www.seleniumframework.com/cucumber-jvm-3/find-element-strategies/
 
 ## Get the code
@@ -12,7 +12,7 @@ http://www.seleniumframework.com/cucumber-jvm-3/find-element-strategies/
 Git:
 
     git clone https://github.com/machzqcq/cucumber-jvm-examples.git
-    cd cucumber-jvm-junit
+    cd cucumberjvm-selenium-class7
 
 ## Use Maven
 

@@ -12,7 +12,7 @@ http://www.seleniumframework.com/cucumber-jvm-3/find-element-strategies/
 Git:
 
     git clone https://github.com/machzqcq/cucumber-jvm-examples.git
-    cd cucumber-jvm-junit
+    cd cucumberjvm-selenium-class8
 
 ## Use Maven
 

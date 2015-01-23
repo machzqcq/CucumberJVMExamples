@@ -2,8 +2,8 @@
 
 You can find a much lucid explanation on [seleniumframework.com] (http://www.seleniumframework.com/cucumber-jvm-2/what-is-cucumber-jvm/)
 
-# cucumberjvm-selenium-class3  
-Explains how to interact with HTML elements using selenium java api  
+# cucumberjvm-selenium-class10  
+Explains how to parse and use json data formats  
 http://www.seleniumframework.com/cucumber-jvm-3/web-element-operations/  
 
 
@@ -14,7 +14,7 @@ A barebone example for running selenium tests on cucumber-jvm
 Git:
 
     git clone https://github.com/machzqcq/cucumber-jvm-examples.git
-    cd cucumberjvm-selenium-class3
+    cd cucumberjvm-selenium-class10
 
 ## Use Maven
 
@@ -34,7 +34,7 @@ results format that CI servers generally interpret
 
 Open a command window and run:
 
-    mvn clean test -Dcucumber.options="classpath:features/SubmitForm.feature:30"
+    mvn clean test -Dcucumber.options="classpath:features/JsonExamples.feature:30"
 
 This should result in no scenarios running because there are no scenarios at line:30
 Moreover, if we want to override running entire features folder, we can do this

@@ -2,8 +2,8 @@
 
 You can find a much lucid explanation on [seleniumframework.com] (http://www.seleniumframework.com/cucumber-jvm-2/what-is-cucumber-jvm/)
 
-# cucumberjvm-selenium-class3  
-Explains how to interact with HTML elements using selenium java api  
+# cucumberjvm-selenium-class9  
+Explains how to do headless testing with phantomjs  
 http://www.seleniumframework.com/cucumber-jvm-3/web-element-operations/  
 
 
@@ -14,7 +14,7 @@ A barebone example for running selenium tests on cucumber-jvm
 Git:
 
     git clone https://github.com/machzqcq/cucumber-jvm-examples.git
-    cd cucumberjvm-selenium-class3
+    cd cucumberjvm-selenium-class9
 
 ## Use Maven
 
