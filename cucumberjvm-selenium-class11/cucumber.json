@@ -1,0 +1,382 @@
+[
+  {
+    "id": "demonstrate-database-connection-using-activejdbc",
+    "description": "",
+    "name": "Demonstrate database connection using activeJDBC",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "demonstrate-database-connection-using-activejdbc;connect-to-practiceselenium.sqlite3-file-and-print-table-values-using-activerecord-sql",
+        "description": "",
+        "name": "Connect to practiceselenium.sqlite3 file and print table values using activerecord sql",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I connect to practiceselenium sqlite3 database",
+            "keyword": "When ",
+            "line": 4,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I print the rows in products table",
+            "keyword": "Then ",
+            "line": 5,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "demonstrate-database-connection-using-activejdbc;connect-to-practiceselenium.sqlite3-file-and-print-table-values-using-activerecord-sql",
+        "description": "",
+        "name": "Connect to practiceselenium.sqlite3 file and print table values using activerecord sql",
+        "keyword": "Scenario",
+        "line": 7,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I connect to practiceselenium sqlite3 database",
+            "keyword": "When ",
+            "line": 8,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I print the rows in products table using columns",
+            "keyword": "Then ",
+            "line": 9,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "demonstrate-database-connection-using-activejdbc;find-a-row-by-finding-through-a-column-value-(where-clause)-using-activerecordbase-inherited-class",
+        "description": "",
+        "name": "find a row by finding through a column value (where clause) using ActiveRecordBase inherited class",
+        "keyword": "Scenario",
+        "line": 11,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I connect to practiceselenium sqlite3 database",
+            "keyword": "When ",
+            "line": 12,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I print the row that has id \"1\"",
+            "keyword": "Then ",
+            "line": 13,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "demonstrate-database-connection-using-activejdbc;update-a-row-value-using-activerecord-base-inherited-class",
+        "description": "",
+        "name": "Update a row value using ActiveRecord Base inherited class",
+        "keyword": "Scenario",
+        "line": 15,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I connect to practiceselenium sqlite3 database",
+            "keyword": "When ",
+            "line": 16,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I update the row whose id is \"1\" and reset it back",
+            "keyword": "Then ",
+            "line": 17,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "demonstrate-database-connection-using-activejdbc;connect-the-dots-on-automation-using-web-ui-form-and-database-using-activerecord-class",
+        "description": "",
+        "name": "Connect the dots on automation using web ui form and database using activerecord class",
+        "keyword": "Scenario",
+        "line": 19,
+        "steps": [
+          {
+            "result": {
+              "duration": 96746859,
+              "status": "failed",
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.JsonExamples.i_open_practiceselenium_website(JsonExamples.java:77)\r\n\tat ✽.When I open practiceselenium website(features/Database_Examples.feature:20)\r\n"
+            },
+            "name": "I open practiceselenium website",
+            "keyword": "When ",
+            "line": 20,
+            "match": {
+              "location": "JsonExamples.i_open_practiceselenium_website()"
+            }
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I retrieve the tea names",
+            "keyword": "And ",
+            "line": 21,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I connect to practiceselenium sqlite3 database",
+            "keyword": "And ",
+            "line": 22,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I compare the values with the values from database using activerecord class",
+            "keyword": "Then ",
+            "line": 23,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "demonstrate-database-connection-using-activejdbc;connect-the-dots-on-automation-using-web-ui-form-and-database-using-traditional-sql",
+        "description": "",
+        "name": "Connect the dots on automation using web ui form and database using traditional sql",
+        "keyword": "Scenario",
+        "line": 25,
+        "steps": [
+          {
+            "result": {
+              "duration": 172017,
+              "status": "failed",
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.JsonExamples.i_open_practiceselenium_website(JsonExamples.java:77)\r\n\tat ✽.When I open practiceselenium website(features/Database_Examples.feature:26)\r\n"
+            },
+            "name": "I open practiceselenium website",
+            "keyword": "When ",
+            "line": 26,
+            "match": {
+              "location": "JsonExamples.i_open_practiceselenium_website()"
+            }
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I retrieve the tea names",
+            "keyword": "And ",
+            "line": 27,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I connect to practiceselenium sqlite3 database",
+            "keyword": "And ",
+            "line": 28,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I compare the values with the values from database using traditional sql",
+            "keyword": "Then ",
+            "line": 29,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "features/Database_Examples.feature"
+  },
+  {
+    "id": "demonstrate-the-json-data-formats",
+    "description": "",
+    "name": "Demonstrate the json data formats",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "demonstrate-the-json-data-formats;serialization-,-convert-object-to-json-and-print-its-string-value",
+        "description": "",
+        "name": "Serialization , convert object to json and print its string value",
+        "keyword": "Scenario",
+        "line": 2,
+        "steps": [
+          {
+            "result": {
+              "duration": 49508991,
+              "status": "passed"
+            },
+            "name": "I create json string from object and write to file",
+            "keyword": "When ",
+            "line": 3,
+            "match": {
+              "location": "JsonExamples.i_create_json_string_from_object_and_write_to_file()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7934149,
+              "status": "passed"
+            },
+            "name": "I print it as a string",
+            "keyword": "Then ",
+            "line": 4,
+            "match": {
+              "location": "JsonExamples.i_print_it_as_a_string()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "demonstrate-the-json-data-formats;access-a-json-string-in-a-file",
+        "description": "",
+        "name": "Access a json string in a file",
+        "keyword": "Scenario",
+        "line": 5,
+        "steps": [
+          {
+            "result": {
+              "duration": 439692,
+              "status": "passed"
+            },
+            "name": "I read json string from a file",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "location": "JsonExamples.i_read_json_string_from_a_file()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7795385,
+              "status": "passed"
+            },
+            "name": "I parse the string and print keys and values",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {
+              "location": "JsonExamples.i_parse_the_string_and_print_keys_and_values()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1167203793,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "demonstrate-the-json-data-formats;accessing-a-json-data-file-and-filling-the-web-form",
+        "tags": [
+          {
+            "name": "@web",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 2644170293,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Accessing a json data file and filling the web form",
+        "keyword": "Scenario",
+        "line": 9,
+        "steps": [
+          {
+            "result": {
+              "duration": 2126336316,
+              "status": "passed"
+            },
+            "name": "I open practiceselenium website",
+            "keyword": "When ",
+            "line": 10,
+            "match": {
+              "location": "JsonExamples.i_open_practiceselenium_website()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2282618,
+              "status": "passed"
+            },
+            "name": "I read the json data file \"practiceform.json\"",
+            "keyword": "And ",
+            "line": 11,
+            "match": {
+              "arguments": [
+                {
+                  "val": "practiceform.json",
+                  "offset": 27
+                }
+              ],
+              "location": "JsonExamples.i_read_the_json_data_file(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2644740126,
+              "status": "passed"
+            },
+            "name": "I fill the form with data from json and submit",
+            "keyword": "And ",
+            "line": 12,
+            "match": {
+              "location": "JsonExamples.i_fill_the_form_with_data_from_json_and_submit()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "features/JSONExamples.feature"
+  }
+]

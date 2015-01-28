@@ -15,7 +15,7 @@
         "steps": [
           {
             "result": {
-              "duration": 186985438,
+              "duration": 150744725,
               "status": "passed"
             },
             "name": "I create json string from object and write to file",
@@ -27,7 +27,7 @@
           },
           {
             "result": {
-              "duration": 9240047,
+              "duration": 9746284,
               "status": "passed"
             },
             "name": "I print it as a string",
@@ -49,7 +49,7 @@
         "steps": [
           {
             "result": {
-              "duration": 356760,
+              "duration": 401921,
               "status": "passed"
             },
             "name": "I read json string from a file",
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 7520291,
+              "duration": 7122095,
               "status": "passed"
             },
             "name": "I parse the string and print keys and values",
@@ -78,7 +78,7 @@
         "after": [
           {
             "result": {
-              "duration": 1170922609,
+              "duration": 1180009443,
               "status": "passed"
             },
             "match": {
@@ -96,7 +96,7 @@
         "before": [
           {
             "result": {
-              "duration": 3189385050,
+              "duration": 2653889893,
               "status": "passed"
             },
             "match": {
@@ -111,7 +111,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2794293069,
+              "duration": 5599542245,
               "status": "passed"
             },
             "name": "I open practiceselenium website",
@@ -123,7 +123,7 @@
           },
           {
             "result": {
-              "duration": 1883152,
+              "duration": 1990722,
               "status": "passed"
             },
             "name": "I read the json data file \"practiceform.json\"",
@@ -141,7 +141,7 @@
           },
           {
             "result": {
-              "duration": 2208489168,
+              "duration": 2962450530,
               "status": "passed"
             },
             "name": "I fill the form with data from json and submit",
