@@ -1,0 +1,228 @@
+[
+  {
+    "id": "sign-in-and-contact-us",
+    "description": "",
+    "name": "Sign in and contact us",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1203626735,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "sign-in-and-contact-us;successful-login",
+        "before": [
+          {
+            "result": {
+              "duration": 3284963052,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Successful login",
+        "keyword": "Scenario",
+        "line": 2,
+        "steps": [
+          {
+            "result": {
+              "duration": 4343671894,
+              "status": "passed"
+            },
+            "name": "I open \"http://automationpractice.com\" website",
+            "keyword": "When ",
+            "line": 3,
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com",
+                  "offset": 8
+                }
+              ],
+              "location": "KeywordDrivenFramework.i_open_website(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 3380512358,
+              "status": "passed"
+            },
+            "name": "I login using credentials \"abc@xyz.com\" and \"Test@123\"",
+            "keyword": "Then ",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@xyz.com",
+                  "offset": 27
+                },
+                {
+                  "val": "Test@123",
+                  "offset": 45
+                }
+              ],
+              "location": "KeywordDrivenFramework.i_login_using_credentials_and(String,String)"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1268121356,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "sign-in-and-contact-us;unsuccessful-login",
+        "before": [
+          {
+            "result": {
+              "duration": 2302860662,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "unsuccessful login",
+        "keyword": "Scenario",
+        "line": 5,
+        "steps": [
+          {
+            "result": {
+              "duration": 4489891616,
+              "status": "passed"
+            },
+            "name": "I open \"http://automationpractice.com\" website",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com",
+                  "offset": 8
+                }
+              ],
+              "location": "KeywordDrivenFramework.i_open_website(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2733810658,
+              "status": "passed"
+            },
+            "name": "I login using credentials \"abc@xyz1.com\" and \"Test@123\"",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@xyz1.com",
+                  "offset": 27
+                },
+                {
+                  "val": "Test@123",
+                  "offset": 46
+                }
+              ],
+              "location": "KeywordDrivenFramework.i_login_using_credentials_and(String,String)"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1288858691,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "id": "sign-in-and-contact-us;contact-us",
+        "before": [
+          {
+            "result": {
+              "duration": 2662315051,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Contact us",
+        "keyword": "Scenario",
+        "line": 8,
+        "steps": [
+          {
+            "result": {
+              "duration": 5713172264,
+              "status": "passed"
+            },
+            "name": "I open \"http://automationpractice.com\" website",
+            "keyword": "When ",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com",
+                  "offset": 8
+                }
+              ],
+              "location": "KeywordDrivenFramework.i_open_website(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2769145661,
+              "status": "passed"
+            },
+            "name": "I contact customer service with order reference \"abc123\" and message \"hello there\"",
+            "keyword": "Then ",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 49
+                },
+                {
+                  "val": "hello there",
+                  "offset": 70
+                }
+              ],
+              "location": "KeywordDrivenFramework.i_contact_customer_service_with_order_reference_and_message(String,String)"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "features/KeywordDrivenFramework.feature"
+  }
+]
