@@ -1,28 +1,12 @@
 [
   {
-    "id": "seleniumframework.com-features",
-    "description": "",
-    "name": "seleniumframework.com features",
-    "keyword": "Feature",
     "line": 1,
     "elements": [
       {
-        "after": [
-          {
-            "result": {
-              "duration": 1313147009,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.embedScreenshot(Scenario)"
-            }
-          }
-        ],
-        "id": "seleniumframework.com-features;open-seleniumframework-website",
         "before": [
           {
             "result": {
-              "duration": 3805186237,
+              "duration": 1921301986,
               "status": "passed"
             },
             "match": {
@@ -30,67 +14,67 @@
             }
           }
         ],
-        "description": "",
-        "name": "Open seleniumframework website",
-        "keyword": "Scenario",
         "line": 2,
+        "name": "Open seleniumframework website",
+        "description": "",
+        "id": "seleniumframework.com-features;open-seleniumframework-website",
+        "after": [
+          {
+            "result": {
+              "duration": 176799335,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 7351082574,
+              "duration": 9083862312,
               "status": "passed"
             },
-            "name": "I open seleniumframework website",
-            "keyword": "Given ",
             "line": 3,
+            "name": "I open seleniumframework website",
             "match": {
               "location": "BrowserCommands.i_open_seleniumframework_website()"
-            }
+            },
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2237830206,
+              "duration": 4074276287,
               "status": "passed"
             },
-            "name": "I navigate to ABOUT link",
-            "keyword": "And ",
             "line": 4,
+            "name": "I navigate to ABOUT link",
             "match": {
               "location": "BrowserCommands.i_navigate_to_ABOUT_link()"
-            }
+            },
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 45968195,
+              "duration": 4385050,
               "status": "passed"
             },
-            "name": "I print the html",
-            "keyword": "Then ",
             "line": 5,
+            "name": "I print the html",
             "match": {
               "location": "BrowserCommands.i_print_the_html()"
-            }
+            },
+            "keyword": "Then "
           }
-        ],
-        "type": "scenario"
+        ]
       },
       {
-        "after": [
-          {
-            "result": {
-              "duration": 1652953105,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.embedScreenshot(Scenario)"
-            }
-          }
-        ],
-        "id": "seleniumframework.com-features;browser-commands",
         "before": [
           {
             "result": {
-              "duration": 2525288666,
+              "duration": 1064508677,
               "status": "passed"
             },
             "match": {
@@ -98,129 +82,55 @@
             }
           }
         ],
-        "description": "",
-        "name": "Browser commands",
-        "keyword": "Scenario",
         "line": 6,
+        "name": "Browser commands",
+        "description": "",
+        "id": "seleniumframework.com-features;browser-commands",
+        "after": [
+          {
+            "result": {
+              "duration": 139782466,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10384451929,
+              "duration": 10477259783,
               "status": "passed"
             },
-            "name": "I open seleniumframework website",
-            "keyword": "Given ",
             "line": 7,
+            "name": "I open seleniumframework website",
             "match": {
               "location": "BrowserCommands.i_open_seleniumframework_website()"
-            }
+            },
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 11106889723,
+              "duration": 10268314739,
               "status": "passed"
             },
-            "name": "I perform selenium browser commands",
-            "keyword": "Then ",
             "line": 8,
+            "name": "I perform selenium browser commands",
             "match": {
               "location": "BrowserCommands.i_perform_selenium_browser_commands()"
-            }
+            },
+            "keyword": "Then "
           }
-        ],
-        "type": "scenario"
+        ]
       }
     ],
-    "uri": "features/BrowserCommands.feature"
-  },
-  {
-    "id": "addition",
-    "description": "As a math idiot\r\nIn order to not feel silly\r\nI add two numbers",
-    "name": "Addition",
+    "name": "seleniumframework.com features",
+    "description": "",
+    "id": "seleniumframework.com-features",
     "keyword": "Feature",
-    "line": 1,
-    "elements": [
-      {
-        "after": [
-          {
-            "result": {
-              "duration": 1233180474,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.embedScreenshot(Scenario)"
-            }
-          }
-        ],
-        "id": "addition;adding-a-and-b",
-        "before": [
-          {
-            "result": {
-              "duration": 9100182723,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.openBrowser()"
-            }
-          }
-        ],
-        "description": "",
-        "name": "Adding a and b",
-        "keyword": "Scenario",
-        "line": 5,
-        "steps": [
-          {
-            "result": {
-              "duration": 108719,
-              "status": "passed"
-            },
-            "name": "I have variable a",
-            "keyword": "Given ",
-            "line": 6,
-            "match": {
-              "location": "Addition.i_have_variable_a()"
-            }
-          },
-          {
-            "result": {
-              "duration": 49460,
-              "status": "passed"
-            },
-            "name": "I have variable b",
-            "keyword": "And ",
-            "line": 7,
-            "match": {
-              "location": "Addition.i_have_variable_b()"
-            }
-          },
-          {
-            "result": {
-              "duration": 57860,
-              "status": "passed"
-            },
-            "name": "I add a and b",
-            "keyword": "When ",
-            "line": 8,
-            "match": {
-              "location": "Addition.i_add_a_and_b()"
-            }
-          },
-          {
-            "result": {
-              "duration": 287430,
-              "status": "passed"
-            },
-            "name": "I display the sum",
-            "keyword": "Then ",
-            "line": 9,
-            "match": {
-              "location": "Addition.i_display_the_sum()"
-            }
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "uri": "features/addition.feature"
+    "uri": "features/BrowserCommands.feature"
   }
 ]

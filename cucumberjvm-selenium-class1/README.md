@@ -35,8 +35,9 @@ Open a command window and run:
     mvn clean test -Dcucumber.options="classpath:features/BrowserCommands.feature:11"
 
 This should result in no scenarios running because there are no scenarios at line:10
-Moreover, if we want to override running entire features folder, we can do this
+Moreover, if we want to override running entire features folder, we can do this  
 
+All cucumber.options are documented [here](https://github.com/cucumber/cucumber-jvm/blob/main/core/src/main/resources/io/cucumber/core/options/USAGE.txt)
 
 
 ## Few options you can try on this project
