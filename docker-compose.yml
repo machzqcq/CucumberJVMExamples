@@ -1,0 +1,26 @@
+version: '2'
+services:
+  mariadb:
+    image: 'mariadb:10.3'
+    environment:
+      - MYSQL_ROOT_PASSWORD=prestashop
+      - MYSQL_USER=prestashop
+      - MYSQL_PASSWORD=prestashop
+      - MYSQL_DATABASE=prestashop
+    volumes:
+      - 'mariadb_data:/var/lib/mysql'
+  prestashop:
+    image: 'prestashop/prestashop:1.6'
+    ports:
+      - '8080:80'
+    environment:
+      - DB_SERVER=mariadb
+      - DB_USER=root
+      - DB_PASSWD=prestashop
+      - ADMIN_MAIL=demo@prestashop.com
+      - ADMIN_PASSWD=prestashop_demo
+    depends_on:
+      - mariadb
+volumes:
+  mariadb_data:
+    driver: local
