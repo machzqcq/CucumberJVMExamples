@@ -1,14 +1,17 @@
 package step_definitions;
 
 import com.github.javafaker.Faker;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.ss.usermodel.CellType.*;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
@@ -123,10 +126,10 @@ public class ApachePOIExcel {
                 Cell currentCell = currentRow.getCell(j);
                 switch (currentCell.getCellType())
                 {
-                    case Cell.CELL_TYPE_STRING:
+                    case STRING:
                         System.out.print(currentCell.getStringCellValue() + "\t");
                         break;
-                    case Cell.CELL_TYPE_NUMERIC:
+                    case NUMERIC:
                         System.out.print(currentCell.getNumericCellValue() + "\t");
                         break;
                 }
@@ -148,10 +151,10 @@ public class ApachePOIExcel {
                 for (int j = 0; j < currentRow.getPhysicalNumberOfCells(); j++) {
                     Cell currentCell = currentRow.getCell(j);
                     switch (currentCell.getCellType()) {
-                        case Cell.CELL_TYPE_STRING:
+                        case STRING:
                             currentHash.put(HeaderRow.getCell(j).getStringCellValue(), currentCell.getStringCellValue());
                             break;
-                        case Cell.CELL_TYPE_NUMERIC:
+                        case NUMERIC:
                             currentHash.put(HeaderRow.getCell(j).getStringCellValue(), String.valueOf(currentCell.getNumericCellValue()));
                             break;
                     }

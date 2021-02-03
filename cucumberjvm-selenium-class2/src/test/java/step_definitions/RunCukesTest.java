@@ -11,7 +11,7 @@ import io.cucumber.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = {"classpath:features/"},
-		glue = { "step_definitions.Addition", "step_definitions.Hooks", "step_definitions.BrowserCommands"},
+		glue = { "step_definitions.HtmlLocators", "step_definitions.Hooks", "step_definitions.WebElements"},
 		plugin = {"pretty", "html:target/cucumber-html-report.html","json:target/cucumber.json"}
 		// tags = {}
 		)

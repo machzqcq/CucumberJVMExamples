@@ -3,16 +3,17 @@ package step_definitions;
 import org.junit.runner.RunWith;
 import org.w3c.dom.views.AbstractView;
 
-import cucumber.api.CucumberOptions;
-import cucumber.api.testng.AbstractTestNGCucumberTests;
-import cucumber.api.junit.Cucumber;
+import io.cucumber.testng.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.junit.Cucumber;
 
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "classpath:features",
-		plugin = {"pretty", "html:target/cucumber-html-report","json:cucumber.json"},
-		tags = {}
+		features = {"classpath:features/"},
+		glue = { "step_definitions.JsonExamples", "step_definitions.Hooks", "step_definitions.Employee"},
+		plugin = {"pretty", "html:target/cucumber-html-report.html","json:target/cucumber.json"}
+		// tags = {}
 		)
 public class RunCukesTest{
 	
