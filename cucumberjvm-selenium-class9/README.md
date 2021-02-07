@@ -1,7 +1,3 @@
-# Projects from seleniumframework.com
-
-You can find a much lucid explanation on [seleniumframework.com] (http://www.seleniumframework.com/cucumber-jvm-2/what-is-cucumber-jvm/)
-
 # cucumberjvm-selenium-class9  
 Explains how to do headless testing with phantomjs  
 http://www.seleniumframework.com/cucumber-jvm-3/web-element-operations/  

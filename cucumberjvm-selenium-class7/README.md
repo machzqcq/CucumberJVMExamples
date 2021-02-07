@@ -1,7 +1,3 @@
-# Projects from seleniumframework.com
-
-You can find a much lucid explanation on [seleniumframework.com] (http://www.seleniumframework.com/cucumber-jvm-2/what-is-cucumber-jvm/)
-
 # cucumber-jvm-selenium-class7   
 
 Explains parameterizing browser and execute on multiple browsers.  

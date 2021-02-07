@@ -1,6 +1,5 @@
 # CucumberJVMExamples
 Cucumber JVM with Selenium Java  
-All explanation is here - http://www.seleniumframework.com/cucumber-jvm-3/cucumber-jvm-and-selenium/ 
 
 # Application under Test
 - The web application that is hosted at [Automation Practice](http://automationpractice.com) is Prestashop application
@@ -22,5 +21,6 @@ All explanation is here - http://www.seleniumframework.com/cucumber-jvm-3/cucumb
 [Headless Testing using PhantomJS + GhostDriver class 9](http://www.seleniumframework.com/cucumber-jvm-3/headless-testing/)  
 [Test Data with Json using Gson Class 10](http://www.seleniumframework.com/cucumber-jvm-3/test-data-with-json/)  
 
-
+# TODO
+Our [website](http://www.seleniumframework.com/cucumber-jvm-3/cucumber-jvm-and-selenium/) is outdated and we are actively working to update it
 

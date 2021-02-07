@@ -1,7 +1,3 @@
-# Projects from seleniumframework.com
-
-You can find a much lucid explanation on [seleniumframework.com] (http://www.seleniumframework.com/cucumber-jvm-2/what-is-cucumber-jvm/)
-
 # cucumberjvm-selenium-class3  
 Explains how to interact with HTML elements using selenium java api  
 http://www.seleniumframework.com/cucumber-jvm-3/web-element-operations/  

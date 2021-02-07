@@ -1,7 +1,3 @@
-# Projects from seleniumframework.com
-
-You can find a much lucid explanation on [seleniumframework.com] (http://www.seleniumframework.com/cucumber-jvm-2/what-is-cucumber-jvm/)
-
 # cucumberjvm-selenium-data-driven-framework
 
 A barebone example for creating a data-driven driven framework (in this case data is in an excel workbook)
