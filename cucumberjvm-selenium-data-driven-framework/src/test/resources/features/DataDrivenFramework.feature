@@ -9,5 +9,5 @@ Feature: Fill a simple form with excel data
     Then I contact the customer service with excel row "<row_index>" dataset
   Examples:
     |row_index|
+    |1|
     |2|
-    |3|

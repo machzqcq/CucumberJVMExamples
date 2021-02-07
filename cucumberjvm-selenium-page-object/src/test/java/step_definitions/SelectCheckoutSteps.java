@@ -1,6 +1,9 @@
 package step_definitions;
 
-import cucumber.api.java.en.Then;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import helpers.DataHelper;
 import modules.SelectAndCheckout;
 import org.openqa.selenium.WebDriver;

@@ -1,226 +1,231 @@
 [
   {
-    "id": "seleniumframework.com-features",
-    "description": "",
-    "name": "seleniumframework.com features",
-    "keyword": "Feature",
     "line": 1,
     "elements": [
       {
-        "after": [
-          {
-            "result": {
-              "duration": 1313147009,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.embedScreenshot(Scenario)"
-            }
-          }
-        ],
-        "id": "seleniumframework.com-features;open-seleniumframework-website",
+        "start_timestamp": "2021-01-31T00:16:05.985Z",
         "before": [
           {
             "result": {
-              "duration": 3805186237,
+              "duration": 1643231000,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.openBrowser()"
+              "location": "step_definitions.Hooks.openBrowser()"
             }
           }
         ],
-        "description": "",
-        "name": "Open seleniumframework website",
-        "keyword": "Scenario",
         "line": 2,
+        "name": "Open seleniumframework website",
+        "description": "",
+        "id": "seleniumframework.com-features;open-seleniumframework-website",
+        "after": [
+          {
+            "result": {
+              "duration": 147633000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 7351082574,
+              "duration": 8402865000,
               "status": "passed"
             },
-            "name": "I open seleniumframework website",
-            "keyword": "Given ",
             "line": 3,
+            "name": "I open seleniumframework website",
             "match": {
-              "location": "BrowserCommands.i_open_seleniumframework_website()"
-            }
+              "location": "step_definitions.BrowserCommands.i_open_seleniumframework_website()"
+            },
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2237830206,
+              "duration": 4348715000,
               "status": "passed"
             },
-            "name": "I navigate to ABOUT link",
-            "keyword": "And ",
             "line": 4,
+            "name": "I navigate to ABOUT link",
             "match": {
-              "location": "BrowserCommands.i_navigate_to_ABOUT_link()"
-            }
+              "location": "step_definitions.BrowserCommands.i_navigate_to_ABOUT_link()"
+            },
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 45968195,
+              "duration": 4742000,
               "status": "passed"
             },
-            "name": "I print the html",
-            "keyword": "Then ",
             "line": 5,
+            "name": "I print the html",
             "match": {
-              "location": "BrowserCommands.i_print_the_html()"
-            }
+              "location": "step_definitions.BrowserCommands.i_print_the_html()"
+            },
+            "keyword": "Then "
           }
-        ],
-        "type": "scenario"
+        ]
       },
       {
-        "after": [
-          {
-            "result": {
-              "duration": 1652953105,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.embedScreenshot(Scenario)"
-            }
-          }
-        ],
-        "id": "seleniumframework.com-features;browser-commands",
+        "start_timestamp": "2021-01-31T00:16:20.582Z",
         "before": [
           {
             "result": {
-              "duration": 2525288666,
+              "duration": 1052947000,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.openBrowser()"
+              "location": "step_definitions.Hooks.openBrowser()"
             }
           }
         ],
-        "description": "",
-        "name": "Browser commands",
-        "keyword": "Scenario",
         "line": 6,
+        "name": "Browser commands",
+        "description": "",
+        "id": "seleniumframework.com-features;browser-commands",
+        "after": [
+          {
+            "result": {
+              "duration": 142351000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10384451929,
+              "duration": 4811225000,
               "status": "passed"
             },
-            "name": "I open seleniumframework website",
-            "keyword": "Given ",
             "line": 7,
+            "name": "I open seleniumframework website",
             "match": {
-              "location": "BrowserCommands.i_open_seleniumframework_website()"
-            }
+              "location": "step_definitions.BrowserCommands.i_open_seleniumframework_website()"
+            },
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 11106889723,
+              "duration": 16791862000,
               "status": "passed"
             },
-            "name": "I perform selenium browser commands",
-            "keyword": "Then ",
             "line": 8,
+            "name": "I perform selenium browser commands",
             "match": {
-              "location": "BrowserCommands.i_perform_selenium_browser_commands()"
-            }
+              "location": "step_definitions.BrowserCommands.i_perform_selenium_browser_commands()"
+            },
+            "keyword": "Then "
           }
-        ],
-        "type": "scenario"
+        ]
       }
     ],
-    "uri": "features/BrowserCommands.feature"
+    "name": "seleniumframework.com features",
+    "description": "",
+    "id": "seleniumframework.com-features",
+    "keyword": "Feature",
+    "uri": "classpath:features/BrowserCommands.feature",
+    "tags": []
   },
   {
-    "id": "addition",
-    "description": "As a math idiot\r\nIn order to not feel silly\r\nI add two numbers",
-    "name": "Addition",
-    "keyword": "Feature",
     "line": 1,
     "elements": [
       {
-        "after": [
-          {
-            "result": {
-              "duration": 1233180474,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.embedScreenshot(Scenario)"
-            }
-          }
-        ],
-        "id": "addition;adding-a-and-b",
+        "start_timestamp": "2021-01-31T00:16:43.388Z",
         "before": [
           {
             "result": {
-              "duration": 9100182723,
+              "duration": 1147717000,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.openBrowser()"
+              "location": "step_definitions.Hooks.openBrowser()"
             }
           }
         ],
-        "description": "",
-        "name": "Adding a and b",
-        "keyword": "Scenario",
         "line": 5,
+        "name": "Adding a and b",
+        "description": "",
+        "id": "addition;adding-a-and-b",
+        "after": [
+          {
+            "result": {
+              "duration": 80985000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 108719,
+              "duration": 174000,
               "status": "passed"
             },
-            "name": "I have variable a",
-            "keyword": "Given ",
             "line": 6,
+            "name": "I have variable a",
             "match": {
-              "location": "Addition.i_have_variable_a()"
-            }
+              "location": "step_definitions.Addition.i_have_variable_a()"
+            },
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 49460,
+              "duration": 227000,
               "status": "passed"
             },
-            "name": "I have variable b",
-            "keyword": "And ",
             "line": 7,
+            "name": "I have variable b",
             "match": {
-              "location": "Addition.i_have_variable_b()"
-            }
+              "location": "step_definitions.Addition.i_have_variable_b()"
+            },
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 57860,
+              "duration": 340000,
               "status": "passed"
             },
-            "name": "I add a and b",
-            "keyword": "When ",
             "line": 8,
+            "name": "I add a and b",
             "match": {
-              "location": "Addition.i_add_a_and_b()"
-            }
+              "location": "step_definitions.Addition.i_add_a_and_b()"
+            },
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 287430,
+              "duration": 406000,
               "status": "passed"
             },
-            "name": "I display the sum",
-            "keyword": "Then ",
             "line": 9,
+            "name": "I display the sum",
             "match": {
-              "location": "Addition.i_display_the_sum()"
-            }
+              "location": "step_definitions.Addition.i_display_the_sum()"
+            },
+            "keyword": "Then "
           }
-        ],
-        "type": "scenario"
+        ]
       }
     ],
-    "uri": "features/addition.feature"
+    "name": "Addition",
+    "description": "  As a math idiot\n  In order to not feel silly\n  I add two numbers",
+    "id": "addition",
+    "keyword": "Feature",
+    "uri": "classpath:features/addition.feature",
+    "tags": []
   }
 ]

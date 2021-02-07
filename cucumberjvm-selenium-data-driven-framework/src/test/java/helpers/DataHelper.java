@@ -28,7 +28,7 @@ public class DataHelper {
 					Cell currentCell = currentRow.getCell(j);
 					switch (currentCell.getCellType())
 					{
-					case Cell.CELL_TYPE_STRING:
+					case STRING:
 						System.out.print(currentCell.getStringCellValue() + "\t");
 						currentHash.put(HeaderRow.getCell(j).getStringCellValue(), currentCell.getStringCellValue());
 						break;
