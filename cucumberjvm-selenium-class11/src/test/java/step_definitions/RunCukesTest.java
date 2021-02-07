@@ -12,8 +12,9 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(
 		features = {"classpath:features/"},
 		glue = { "stepDefinitions.DatabaseExamples", "stepDefinitions.Hooks", "stepDefinitions.JsonExamples"},
-		plugin = {"pretty", "html:target/cucumber-html-report.html","json:target/cucumber.json"}
-		// tags = {}
+		plugin = {"pretty", "html:target/cucumber-html-report.html","json:target/cucumber.json"},
+		tags = "@tags",
+		dryRun = false
 		)
 public class RunCukesTest{
 	

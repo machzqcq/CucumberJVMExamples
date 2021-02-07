@@ -1,4 +1,4 @@
-package stepDefinitions;
+package step_definitions;
 
 import org.javalite.activejdbc.Base;
 

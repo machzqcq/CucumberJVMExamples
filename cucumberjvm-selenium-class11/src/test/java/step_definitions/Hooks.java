@@ -1,4 +1,4 @@
-package stepDefinitions;
+package step_definitions;
 
 import java.net.MalformedURLException;
 
@@ -12,9 +12,16 @@ import io.cucumber.java.Scenario;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import org.sqlite.JDBC.*;
 
 public class Hooks{
     public static WebDriver driver;
+    public static Connection conn;
 
     
     @Before("@web")
@@ -27,6 +34,24 @@ public class Hooks{
         driver = new ChromeDriver();
    	    System.out.println("Opening Browser....");
     	driver.manage().deleteAllCookies();
+    }
+
+    @Before("@database")
+    /**
+     * Delete all cookies at the start of each scenario to avoid
+     * shared state between tests
+     */
+    public void openConn() throws MalformedURLException {
+        try {
+            // db parameters
+            String url = "jdbc:sqlite:"+System.getProperty("user.dir")+"//src//test//resources//practiceselenium.sqlite";
+            // create a connection to the database
+            conn = DriverManager.getConnection(url);
+            System.out.println("Connection to SQLite has been established.");
+            
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        } 
     }
 
     @After("@web")
@@ -47,6 +72,18 @@ public class Hooks{
         
         }
         driver.quit();
+        
+    }
+
+    @After("@database")
+    public void closeConn(Scenario scenario) {
+        try {
+            conn.close();
+            System.out.println("Successfully closed database connection!");
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
         
     }
     

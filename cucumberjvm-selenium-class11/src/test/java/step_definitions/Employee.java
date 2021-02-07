@@ -1,4 +1,4 @@
-package stepDefinitions;
+package step_definitions;
 import java.util.Date;
 import java.util.List;
 

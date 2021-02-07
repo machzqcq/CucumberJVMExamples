@@ -1,4 +1,4 @@
-package stepDefinitions;
+package step_definitions;
 import com.google.gson.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
