@@ -1,6 +1,6 @@
 package step_definitions;
 
-import cucumber.api.PendingException;
+
 import helpers.DataHelper;
 
 import java.util.ArrayList;
@@ -17,8 +17,10 @@ import org.openqa.selenium.support.PageFactory;
 import pageobjects.AutomationHomePage;
 import pageobjects.ContactusPage;
 import pageobjects.LoginPage;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 
 public class SigninSignoutContactUsSteps {
