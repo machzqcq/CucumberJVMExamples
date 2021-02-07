@@ -1,5 +1,4 @@
 package step_definitions;
-import cucumber.api.PendingException;
 import helpers.DataHelper;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,8 +7,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
 public class DataDrivenFramework {
     public WebDriver driver;
     public List<HashMap<String,String>> datamap;
